@@ -76,7 +76,7 @@ public class HttpTester {
 
     private String createUrl(String lineName, int room) {
         String originalUrl = "https://neunlds" + room + ".akamaized.net/nlds/nba/" + lineName + "/as/live/nlncp/" + lineName + "_hd.m3u8";
-        String url = "https://livexsports-redirect.cfapps.io/api/redirect/" + originalUrl;
+        String url = originalUrl;
         return url;
     }
 
